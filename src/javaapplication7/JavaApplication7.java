@@ -16,8 +16,10 @@ public class JavaApplication7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Food bread_1=new Food(3,"GGGG");
+        Food bread_1=new Food(3,"i");
+        Food bread_2=new Food(5,"uui");
        System.out.println(bread_1.getPrice());
+       System.out.println(bread_2.getPrice());
     }
     
 }
